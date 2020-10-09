@@ -1,0 +1,14 @@
+listen_port: 9090
+skip_tls_verify: true
+client_id: your_client_id
+client_secret: your_client_secret
+token_endpoint: https://auth.example.com/oauth/token
+upstream_host: https://api.example.com
+upstream_scheme: https
+allowed_hosts:
+  - foo
+  - bar
+  - baz
+scopes:
+  - name
+  - email

@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  proxy:
+    image: ghcr.io/matchory/oauth2-authenticating-proxy:latest
+    # build: .
+    volumes:
+      - "./examples/config.yaml:/proxy/config.yaml:ro"
+    expose:
+      - 8080
+    # ports:
+    #   - "127.0.0.1:8080:8080"
