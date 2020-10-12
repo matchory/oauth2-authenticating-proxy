@@ -84,7 +84,7 @@ var Serve = &cobra.Command{
 			// If the allowed hosts list is used (has at least one entry), check
 			// whether the list contains the resolved host. We only set the
 			// upstream host if it is allowed.
-			if len(allowedHosts) > 0 && contains(allowedHosts, host) {
+			if len(allowedHosts) == 0 || contains(allowedHosts, host) {
 				req.Host = host
 			}
 
