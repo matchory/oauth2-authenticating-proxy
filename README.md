@@ -1,4 +1,4 @@
-OAuth2 Authenticating Proxy
+OAuth2 Authenticating Proxy ![Publish Docker image](https://github.com/matchory/oauth2-authenticating-proxy/workflows/Publish%20Docker%20image/badge.svg)
 ===========================
 > Simple proxy application to add an OAuth2 access token to any request passing through
 
