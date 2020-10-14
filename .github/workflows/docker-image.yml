@@ -19,3 +19,4 @@ jobs:
           registry: docker.pkg.github.com
           repository: matchory/oauth2-authenticating-proxy/oauth2-authenticating-proxy
           tag_with_ref: true
+          tags: latest
